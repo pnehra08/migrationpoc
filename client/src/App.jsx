@@ -35,6 +35,7 @@ function App () {
         dispatch(signout());
     };
 
+    console.log("title",process.env.REACT_APP_TITLE);
 
     // console.log(userInfo);
     return (
